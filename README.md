@@ -5,5 +5,3 @@
 ---
 
 More details to come...
-
-### By Will Guida
