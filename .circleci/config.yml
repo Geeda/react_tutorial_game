@@ -1,12 +1,11 @@
 version: 2.1
 jobs:
-  frontend:
-    orbs:
-      node: circleci/node@3.0.0
+  orbs:
+    node: circleci/node@3.0.0
 
-    working_directory: ~/my-app
+  working_directory: ~/my-app
 
-    steps:
-      - checkout
-      - run: yarn install
-      - run: yarn test
+  steps:
+    - checkout
+    - run: yarn install
+    - run: yarn test
