@@ -1,6 +1,6 @@
 version: 2. 1
 jobs:
-  frontend:
+  build:
     docker:
       - image: cimg/node:15.14.0
 
