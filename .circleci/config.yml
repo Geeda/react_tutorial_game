@@ -2,6 +2,9 @@ version: 2.1
 jobs:
   orbs:
     node: circleci/node@3.0.0
+    
+  docker:
+  - image: cimg/node:15.14.0
 
   working_directory: ~/my-app
 
