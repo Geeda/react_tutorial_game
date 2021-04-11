@@ -22,7 +22,7 @@ jobs:
       - checkout
       - run: yarn install
       - run: yarn --version
-      - run: yarn test
+      - run: cd my-app && yarn test
 workflows:
   test_my_app:
     jobs:
