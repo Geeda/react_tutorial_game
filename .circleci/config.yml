@@ -20,9 +20,8 @@ jobs:
       - image: circleci/node:latest
     steps:
       - checkout
-      - node/install:
-          install-yarn: true
-      - run: node --version
+      - run: yarn install
+      - run: yarn --version
 workflows:
   test_my_app:
     jobs:
