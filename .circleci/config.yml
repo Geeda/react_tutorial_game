@@ -17,7 +17,7 @@ orbs:
 jobs:
   install-node-example:
     docker:
-      - image: circleci/node:10.14.2
+      - image: circleci/node:stretch
     steps:
       - checkout
       - node/install:
