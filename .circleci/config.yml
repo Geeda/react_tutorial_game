@@ -13,11 +13,11 @@
 
 version: '2.1'
 orbs:
-  node: circleci/node@3.0.0
+  node: circleci/node@4.2.1
 jobs:
   install-node-example:
     docker:
-      - image: circleci/node:stretch
+      - image: circleci/node:latest
     steps:
       - checkout
       - node/install:
